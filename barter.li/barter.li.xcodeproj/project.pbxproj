@@ -1,0 +1,439 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		48C72EB619F286E20029DB65 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48C72EB519F286E20029DB65 /* AppDelegate.swift */; };
+		48C72EB919F286E20029DB65 /* barter_li.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 48C72EB719F286E20029DB65 /* barter_li.xcdatamodeld */; };
+		48C72EBB19F286E20029DB65 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48C72EBA19F286E20029DB65 /* ViewController.swift */; };
+		48C72EBE19F286E20029DB65 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 48C72EBC19F286E20029DB65 /* Main.storyboard */; };
+		48C72EC019F286E20029DB65 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 48C72EBF19F286E20029DB65 /* Images.xcassets */; };
+		48C72EC319F286E20029DB65 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 48C72EC119F286E20029DB65 /* LaunchScreen.xib */; };
+		48C72ECF19F286E20029DB65 /* barter_liTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48C72ECE19F286E20029DB65 /* barter_liTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		48C72EC919F286E20029DB65 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 48C72EA819F286E20029DB65 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 48C72EAF19F286E20029DB65;
+			remoteInfo = barter.li;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		48C72EB019F286E20029DB65 /* barter.li.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = barter.li.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		48C72EB419F286E20029DB65 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		48C72EB519F286E20029DB65 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		48C72EB819F286E20029DB65 /* barter_li.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = barter_li.xcdatamodel; sourceTree = "<group>"; };
+		48C72EBA19F286E20029DB65 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		48C72EBD19F286E20029DB65 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		48C72EBF19F286E20029DB65 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		48C72EC219F286E20029DB65 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		48C72EC819F286E20029DB65 /* barter.liTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = barter.liTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		48C72ECD19F286E20029DB65 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		48C72ECE19F286E20029DB65 /* barter_liTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = barter_liTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		48C72EAD19F286E20029DB65 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		48C72EC519F286E20029DB65 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		48C72EA719F286E20029DB65 = {
+			isa = PBXGroup;
+			children = (
+				48C72EB219F286E20029DB65 /* barter.li */,
+				48C72ECB19F286E20029DB65 /* barter.liTests */,
+				48C72EB119F286E20029DB65 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		48C72EB119F286E20029DB65 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				48C72EB019F286E20029DB65 /* barter.li.app */,
+				48C72EC819F286E20029DB65 /* barter.liTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		48C72EB219F286E20029DB65 /* barter.li */ = {
+			isa = PBXGroup;
+			children = (
+				48C72EB519F286E20029DB65 /* AppDelegate.swift */,
+				48C72EBA19F286E20029DB65 /* ViewController.swift */,
+				48C72EBC19F286E20029DB65 /* Main.storyboard */,
+				48C72EBF19F286E20029DB65 /* Images.xcassets */,
+				48C72EC119F286E20029DB65 /* LaunchScreen.xib */,
+				48C72EB719F286E20029DB65 /* barter_li.xcdatamodeld */,
+				48C72EB319F286E20029DB65 /* Supporting Files */,
+			);
+			path = barter.li;
+			sourceTree = "<group>";
+		};
+		48C72EB319F286E20029DB65 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				48C72EB419F286E20029DB65 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		48C72ECB19F286E20029DB65 /* barter.liTests */ = {
+			isa = PBXGroup;
+			children = (
+				48C72ECE19F286E20029DB65 /* barter_liTests.swift */,
+				48C72ECC19F286E20029DB65 /* Supporting Files */,
+			);
+			path = barter.liTests;
+			sourceTree = "<group>";
+		};
+		48C72ECC19F286E20029DB65 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				48C72ECD19F286E20029DB65 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		48C72EAF19F286E20029DB65 /* barter.li */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 48C72ED219F286E20029DB65 /* Build configuration list for PBXNativeTarget "barter.li" */;
+			buildPhases = (
+				48C72EAC19F286E20029DB65 /* Sources */,
+				48C72EAD19F286E20029DB65 /* Frameworks */,
+				48C72EAE19F286E20029DB65 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = barter.li;
+			productName = barter.li;
+			productReference = 48C72EB019F286E20029DB65 /* barter.li.app */;
+			productType = "com.apple.product-type.application";
+		};
+		48C72EC719F286E20029DB65 /* barter.liTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 48C72ED519F286E20029DB65 /* Build configuration list for PBXNativeTarget "barter.liTests" */;
+			buildPhases = (
+				48C72EC419F286E20029DB65 /* Sources */,
+				48C72EC519F286E20029DB65 /* Frameworks */,
+				48C72EC619F286E20029DB65 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				48C72ECA19F286E20029DB65 /* PBXTargetDependency */,
+			);
+			name = barter.liTests;
+			productName = barter.liTests;
+			productReference = 48C72EC819F286E20029DB65 /* barter.liTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		48C72EA819F286E20029DB65 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0600;
+				ORGANIZATIONNAME = barter.li;
+				TargetAttributes = {
+					48C72EAF19F286E20029DB65 = {
+						CreatedOnToolsVersion = 6.0.1;
+					};
+					48C72EC719F286E20029DB65 = {
+						CreatedOnToolsVersion = 6.0.1;
+						TestTargetID = 48C72EAF19F286E20029DB65;
+					};
+				};
+			};
+			buildConfigurationList = 48C72EAB19F286E20029DB65 /* Build configuration list for PBXProject "barter.li" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 48C72EA719F286E20029DB65;
+			productRefGroup = 48C72EB119F286E20029DB65 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				48C72EAF19F286E20029DB65 /* barter.li */,
+				48C72EC719F286E20029DB65 /* barter.liTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		48C72EAE19F286E20029DB65 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				48C72EBE19F286E20029DB65 /* Main.storyboard in Resources */,
+				48C72EC319F286E20029DB65 /* LaunchScreen.xib in Resources */,
+				48C72EC019F286E20029DB65 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		48C72EC619F286E20029DB65 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		48C72EAC19F286E20029DB65 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				48C72EBB19F286E20029DB65 /* ViewController.swift in Sources */,
+				48C72EB919F286E20029DB65 /* barter_li.xcdatamodeld in Sources */,
+				48C72EB619F286E20029DB65 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		48C72EC419F286E20029DB65 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				48C72ECF19F286E20029DB65 /* barter_liTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		48C72ECA19F286E20029DB65 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 48C72EAF19F286E20029DB65 /* barter.li */;
+			targetProxy = 48C72EC919F286E20029DB65 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		48C72EBC19F286E20029DB65 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				48C72EBD19F286E20029DB65 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		48C72EC119F286E20029DB65 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				48C72EC219F286E20029DB65 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		48C72ED019F286E20029DB65 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		48C72ED119F286E20029DB65 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		48C72ED319F286E20029DB65 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = barter.li/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		48C72ED419F286E20029DB65 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = barter.li/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		48C72ED619F286E20029DB65 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = barter.liTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/barter.li.app/barter.li";
+			};
+			name = Debug;
+		};
+		48C72ED719F286E20029DB65 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = barter.liTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/barter.li.app/barter.li";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		48C72EAB19F286E20029DB65 /* Build configuration list for PBXProject "barter.li" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				48C72ED019F286E20029DB65 /* Debug */,
+				48C72ED119F286E20029DB65 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		48C72ED219F286E20029DB65 /* Build configuration list for PBXNativeTarget "barter.li" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				48C72ED319F286E20029DB65 /* Debug */,
+				48C72ED419F286E20029DB65 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		48C72ED519F286E20029DB65 /* Build configuration list for PBXNativeTarget "barter.liTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				48C72ED619F286E20029DB65 /* Debug */,
+				48C72ED719F286E20029DB65 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		48C72EB719F286E20029DB65 /* barter_li.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				48C72EB819F286E20029DB65 /* barter_li.xcdatamodel */,
+			);
+			currentVersion = 48C72EB819F286E20029DB65 /* barter_li.xcdatamodel */;
+			path = barter_li.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 48C72EA819F286E20029DB65 /* Project object */;
+}
