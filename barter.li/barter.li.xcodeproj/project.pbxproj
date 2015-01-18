@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3836F8021A6BC9D800599C72 /* BLBook.m in Sources */ = {isa = PBXBuildFile; fileRef = 3836F8011A6BC9D800599C72 /* BLBook.m */; };
+		3836F8031A6BC9D800599C72 /* BLBook.m in Sources */ = {isa = PBXBuildFile; fileRef = 3836F8011A6BC9D800599C72 /* BLBook.m */; };
 		F230BBEE1A6BA78700273924 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F230BBED1A6BA78700273924 /* main.m */; };
 		F230BBF11A6BA78700273924 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F230BBF01A6BA78700273924 /* AppDelegate.m */; };
 		F230BBF41A6BA78700273924 /* Barter_Li.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = F230BBF21A6BA78700273924 /* Barter_Li.xcdatamodeld */; };
@@ -28,6 +30,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		3836F8001A6BC9D800599C72 /* BLBook.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = BLBook.h; path = "barter.li/Modal Classes/BLBook/BLBook.h"; sourceTree = SOURCE_ROOT; };
+		3836F8011A6BC9D800599C72 /* BLBook.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = BLBook.m; path = "barter.li/Modal Classes/BLBook/BLBook.m"; sourceTree = SOURCE_ROOT; };
 		F230BBE81A6BA78700273924 /* Barter.Li.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Barter.Li.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F230BBEC1A6BA78700273924 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		F230BBED1A6BA78700273924 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -62,6 +66,23 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		3836F7FE1A6BC99D00599C72 /* Modal Classes */ = {
+			isa = PBXGroup;
+			children = (
+				3836F7FF1A6BC9AD00599C72 /* BLBook */,
+			);
+			path = "Modal Classes";
+			sourceTree = "<group>";
+		};
+		3836F7FF1A6BC9AD00599C72 /* BLBook */ = {
+			isa = PBXGroup;
+			children = (
+				3836F8001A6BC9D800599C72 /* BLBook.h */,
+				3836F8011A6BC9D800599C72 /* BLBook.m */,
+			);
+			path = BLBook;
+			sourceTree = "<group>";
+		};
 		F230BBDF1A6BA78700273924 = {
 			isa = PBXGroup;
 			children = (
@@ -85,6 +106,7 @@
 			children = (
 				F230BBEF1A6BA78700273924 /* AppDelegate.h */,
 				F230BBF01A6BA78700273924 /* AppDelegate.m */,
+				3836F7FE1A6BC99D00599C72 /* Modal Classes */,
 				F230BBF51A6BA78700273924 /* ViewController.h */,
 				F230BBF61A6BA78700273924 /* ViewController.m */,
 				F230BBF81A6BA78700273924 /* Main.storyboard */,
@@ -178,7 +200,7 @@
 					};
 				};
 			};
-			buildConfigurationList = F230BBE31A6BA78700273924 /* Build configuration list for PBXProject "Barter.Li" */;
+			buildConfigurationList = F230BBE31A6BA78700273924 /* Build configuration list for PBXProject "barter.li" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -225,6 +247,7 @@
 				F230BBF41A6BA78700273924 /* Barter_Li.xcdatamodeld in Sources */,
 				F230BBF11A6BA78700273924 /* AppDelegate.m in Sources */,
 				F230BBF71A6BA78700273924 /* ViewController.m in Sources */,
+				3836F8021A6BC9D800599C72 /* BLBook.m in Sources */,
 				F230BBEE1A6BA78700273924 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -233,6 +256,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3836F8031A6BC9D800599C72 /* BLBook.m in Sources */,
 				F230BC0B1A6BA78700273924 /* Barter_LiTests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -402,7 +426,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		F230BBE31A6BA78700273924 /* Build configuration list for PBXProject "Barter.Li" */ = {
+		F230BBE31A6BA78700273924 /* Build configuration list for PBXProject "barter.li" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				F230BC0C1A6BA78700273924 /* Debug */,
@@ -418,6 +442,7 @@
 				F230BC101A6BA78700273924 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		F230BC111A6BA78700273924 /* Build configuration list for PBXNativeTarget "Barter.LiTests" */ = {
 			isa = XCConfigurationList;
@@ -426,6 +451,7 @@
 				F230BC131A6BA78700273924 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 

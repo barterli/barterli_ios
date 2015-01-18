@@ -7,9 +7,12 @@
 //
 
 #import "ViewController.h"
+#import "BLBook.h"
+
+#define kListResultsForLocationCoordinates @"http://api.barter.li/api/v1/search.json?per=%ld&page=%ld&longitude=%.7lf&latitude=%.7lf"
 
 @interface ViewController ()
-#define kListResultsForLocationCoordinates @"http://api.barter.li/api/v1/search.json?per=%ld&page=%ld&longitude=%.7lf&latitude=%.7lf"
+
 @end
 
 @implementation ViewController
