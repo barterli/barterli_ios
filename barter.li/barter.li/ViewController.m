@@ -8,11 +8,14 @@
 
 #import "ViewController.h"
 #import "BLBook.h"
+#import <CoreLocation/CoreLocation.h>
 
-#define kListResultsForLocationCoordinates @"http://api.barter.li/api/v1/search.json?per=%ld&page=%ld&longitude=%.7lf&latitude=%.7lf"
+#define kListResultsForLocationCoordinatesAPI @"http://api.barter.li/api/v1/search.json?per=%ld&page=%ld&longitude=%.7lf&latitude=%.7lf"
 
-@interface ViewController ()
-@property (nonatomic, strong) NSMutableArray *searchResultsBooksArray;
+@interface ViewController () <CLLocationManagerDelegate>
+@property (atomic, strong) NSMutableArray *searchResultsBooksArray;
+@property (nonatomic, strong) CLLocationManager *locationManager;
+@property (nonatomic, assign) CLLocationCoordinate2D currentLocationCoordinates;
 @end
 
 @implementation ViewController
@@ -22,8 +25,23 @@
     // Do any additional setup after loading the view, typically from a nib.
     
     self.searchResultsBooksArray=[[NSMutableArray alloc] init];
+    [self performLocationManagerSetup];
     
     [self fetchBooksAtCurrentLocation];
+}
+
+
+#pragma mark - Location Related
+
+-(void) performLocationManagerSetup
+{
+    _locationManager=[[CLLocationManager alloc] init];
+    _locationManager.delegate = self;
+    _locationManager.desiredAccuracy = kCLLocationAccuracyHundredMeters;
+    _locationManager.distanceFilter = 100;
+    _locationManager.pausesLocationUpdatesAutomatically=YES;
+    
+    [_locationManager startUpdatingLocation];
 }
 
 // Called whenever the datasource is modified or updated
@@ -39,7 +57,7 @@
 
 -(void) fetchBooksAtCurrentLocation
 {
-    NSString *apiRequestString=[NSString stringWithFormat:kListResultsForLocationCoordinates, (long)0, (long)0,77.6276092,12.9399408];
+    NSString *apiRequestString=[NSString stringWithFormat:kListResultsForLocationCoordinatesAPI, (long)0, (long)0,77.6276092,12.9399408];
     
     __block __weak ViewController *weakSelf=self;
     
@@ -67,7 +85,7 @@
                     newBook.bookID  =[bookDict objectForKey:@"id_book"];
                     newBook.ISBN10  =[bookDict objectForKey:@"isbn_10"];
                     newBook.ISBN13  =[bookDict objectForKey:@"isbn_13"];
-
+                    
                     bookOwner.userName      =[bookDict objectForKey:@"owner_name"];
                     bookOwner.userID        =[bookDict objectForKey:@"id_user"];
                     bookOwner.userImageURL  =[bookDict objectForKey:@"owner_image_url"];
@@ -82,12 +100,12 @@
                     [weakSelf.searchResultsBooksArray addObjectsFromArray:parsingArray];
                     [weakSelf refreshUIAsDataSourceUpdated];
                 });
-               
+                
             }
-      
+            
         }
     }];
-
+    
     [dataTask resume];
 }
 
