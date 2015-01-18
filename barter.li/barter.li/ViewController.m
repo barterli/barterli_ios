@@ -9,7 +9,7 @@
 #import "ViewController.h"
 
 @interface ViewController ()
-#define kListResultsForLocationCoordinates @"http://api.barter.li/api/v1/search.json?per=%ld&page=%ld&longitude=%.5lf&latitude=%.5lf"
+#define kListResultsForLocationCoordinates @"http://api.barter.li/api/v1/search.json?per=%ld&page=%ld&longitude=%.7lf&latitude=%.7lf"
 @end
 
 @implementation ViewController
@@ -38,9 +38,13 @@
             
             NSDictionary *responseDict=[NSJSONSerialization JSONObjectWithData:data options:NSJSONReadingMutableContainers error:&anError];
             
-            NSLog(@"\n Response ==> %@", responseDict);
+            NSArray *resultsArray=[responseDict objectForKey:@"search"];
             
-            
+            if(resultsArray)
+            {
+                  NSLog(@"\n resultsArray 1 ==> %@", [resultsArray firstObject]);
+            }
+      
         }
     }];
 
