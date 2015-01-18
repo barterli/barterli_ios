@@ -15,7 +15,7 @@
 @interface ViewController () <CLLocationManagerDelegate>
 @property (atomic, strong) NSMutableArray *searchResultsBooksArray;
 @property (nonatomic, strong) CLLocationManager *locationManager;
-@property (nonatomic, assign) CLLocationCoordinate2D currentLocationCoordinates;
+@property (nonatomic, strong) CLLocation * currentLocation;
 @end
 
 @implementation ViewController
@@ -41,7 +41,21 @@
     _locationManager.distanceFilter = 100;
     _locationManager.pausesLocationUpdatesAutomatically=YES;
     
+    if([self.locationManager respondsToSelector:@selector(requestWhenInUseAuthorization)])
+    {
+        [self.locationManager requestWhenInUseAuthorization];
+    }
+    
     [_locationManager startUpdatingLocation];
+}
+
+- (void)locationManager:(CLLocationManager *)manager didUpdateLocations:(NSArray *)locations
+{
+    if(locations && locations.count>0)
+    {
+        self.currentLocation=[locations firstObject];
+        
+    }
 }
 
 // Called whenever the datasource is modified or updated
