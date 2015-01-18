@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		3836F8021A6BC9D800599C72 /* BLBook.m in Sources */ = {isa = PBXBuildFile; fileRef = 3836F8011A6BC9D800599C72 /* BLBook.m */; };
 		3836F8031A6BC9D800599C72 /* BLBook.m in Sources */ = {isa = PBXBuildFile; fileRef = 3836F8011A6BC9D800599C72 /* BLBook.m */; };
+		3842E50E1A6BCDF900FE8A9B /* BLUser.m in Sources */ = {isa = PBXBuildFile; fileRef = 3842E50D1A6BCDF900FE8A9B /* BLUser.m */; };
 		F230BBEE1A6BA78700273924 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F230BBED1A6BA78700273924 /* main.m */; };
 		F230BBF11A6BA78700273924 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F230BBF01A6BA78700273924 /* AppDelegate.m */; };
 		F230BBF41A6BA78700273924 /* Barter_Li.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = F230BBF21A6BA78700273924 /* Barter_Li.xcdatamodeld */; };
@@ -32,6 +33,8 @@
 /* Begin PBXFileReference section */
 		3836F8001A6BC9D800599C72 /* BLBook.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = BLBook.h; path = "barter.li/Modal Classes/BLBook/BLBook.h"; sourceTree = SOURCE_ROOT; };
 		3836F8011A6BC9D800599C72 /* BLBook.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = BLBook.m; path = "barter.li/Modal Classes/BLBook/BLBook.m"; sourceTree = SOURCE_ROOT; };
+		3842E50C1A6BCDF900FE8A9B /* BLUser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = BLUser.h; path = "barter.li/Modal Classes/BLUser/BLUser.h"; sourceTree = SOURCE_ROOT; };
+		3842E50D1A6BCDF900FE8A9B /* BLUser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = BLUser.m; path = "barter.li/Modal Classes/BLUser/BLUser.m"; sourceTree = SOURCE_ROOT; };
 		F230BBE81A6BA78700273924 /* Barter.Li.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Barter.Li.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F230BBEC1A6BA78700273924 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		F230BBED1A6BA78700273924 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -69,6 +72,7 @@
 		3836F7FE1A6BC99D00599C72 /* Modal Classes */ = {
 			isa = PBXGroup;
 			children = (
+				3842E50B1A6BCDE400FE8A9B /* BLUser */,
 				3836F7FF1A6BC9AD00599C72 /* BLBook */,
 			);
 			path = "Modal Classes";
@@ -81,6 +85,15 @@
 				3836F8011A6BC9D800599C72 /* BLBook.m */,
 			);
 			path = BLBook;
+			sourceTree = "<group>";
+		};
+		3842E50B1A6BCDE400FE8A9B /* BLUser */ = {
+			isa = PBXGroup;
+			children = (
+				3842E50C1A6BCDF900FE8A9B /* BLUser.h */,
+				3842E50D1A6BCDF900FE8A9B /* BLUser.m */,
+			);
+			path = BLUser;
 			sourceTree = "<group>";
 		};
 		F230BBDF1A6BA78700273924 = {
@@ -248,6 +261,7 @@
 				F230BBF11A6BA78700273924 /* AppDelegate.m in Sources */,
 				F230BBF71A6BA78700273924 /* ViewController.m in Sources */,
 				3836F8021A6BC9D800599C72 /* BLBook.m in Sources */,
+				3842E50E1A6BCDF900FE8A9B /* BLUser.m in Sources */,
 				F230BBEE1A6BA78700273924 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
