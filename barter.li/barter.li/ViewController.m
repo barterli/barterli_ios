@@ -26,8 +26,7 @@
     
     self.searchResultsBooksArray=[[NSMutableArray alloc] init];
     [self performLocationManagerSetup];
-    
-    [self fetchBooksAtCurrentLocation];
+   
 }
 
 
@@ -54,7 +53,7 @@
     if(locations && locations.count>0)
     {
         self.currentLocation=[locations firstObject];
-        
+        [self fetchBooksAtCurrentLocation];
     }
 }
 
@@ -71,8 +70,11 @@
 
 -(void) fetchBooksAtCurrentLocation
 {
-    NSString *apiRequestString=[NSString stringWithFormat:kListResultsForLocationCoordinatesAPI, (long)0, (long)0,77.6276092,12.9399408];
+    CLLocationCoordinate2D currentLocationCoordinates=self.currentLocation.coordinate;
     
+    NSString *apiRequestString=[NSString stringWithFormat:kListResultsForLocationCoordinatesAPI,
+                                (long)0, (long)0,currentLocationCoordinates.longitude,currentLocationCoordinates.latitude];
+    NSLog(@"\n API call ==> %@", apiRequestString);
     __block __weak ViewController *weakSelf=self;
     
     NSURLSessionDataTask *dataTask=[[NSURLSession sharedSession] dataTaskWithURL:[NSURL URLWithString:apiRequestString] completionHandler:^(NSData *data, NSURLResponse *response, NSError *error) {
