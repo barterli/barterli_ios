@@ -9,7 +9,7 @@
 #import "ViewController.h"
 #import "BLBook.h"
 
-#define kListResultsForLocationCoordinates @"http://api.barter.li/api/v1/search.json?per=%ld&page=%ld&longitude=%.7lf&latitude=%.7lf"
+#define kListResultsForLocationCoordinatesAPI @"http://api.barter.li/api/v1/search.json?per=%ld&page=%ld&longitude=%.7lf&latitude=%.7lf"
 
 @interface ViewController ()
 @property (nonatomic, strong) NSMutableArray *searchResultsBooksArray;
@@ -39,7 +39,7 @@
 
 -(void) fetchBooksAtCurrentLocation
 {
-    NSString *apiRequestString=[NSString stringWithFormat:kListResultsForLocationCoordinates, (long)0, (long)0,77.6276092,12.9399408];
+    NSString *apiRequestString=[NSString stringWithFormat:kListResultsForLocationCoordinatesAPI, (long)0, (long)0,77.6276092,12.9399408];
     
     __block __weak ViewController *weakSelf=self;
     
