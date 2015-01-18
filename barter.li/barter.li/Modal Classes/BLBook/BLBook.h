@@ -12,7 +12,7 @@
 @interface BLBook : NSObject
 @property (nonatomic, strong) NSString *author;
 @property (nonatomic, strong) NSString *title;
-@property (nonatomic, strong) NSString *description;
+@property (nonatomic, strong) NSString *bookDescription;
 @property (nonatomic, strong) NSString *coverImage;
 @property (nonatomic, strong) NSString *bookID;
 @property (nonatomic, strong) NSString *ISBN10;
