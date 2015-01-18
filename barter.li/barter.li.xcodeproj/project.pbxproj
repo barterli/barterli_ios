@@ -7,48 +7,52 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		48C72EB619F286E20029DB65 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48C72EB519F286E20029DB65 /* AppDelegate.swift */; };
-		48C72EB919F286E20029DB65 /* barter_li.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 48C72EB719F286E20029DB65 /* barter_li.xcdatamodeld */; };
-		48C72EBB19F286E20029DB65 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48C72EBA19F286E20029DB65 /* ViewController.swift */; };
-		48C72EBE19F286E20029DB65 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 48C72EBC19F286E20029DB65 /* Main.storyboard */; };
-		48C72EC019F286E20029DB65 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 48C72EBF19F286E20029DB65 /* Images.xcassets */; };
-		48C72EC319F286E20029DB65 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 48C72EC119F286E20029DB65 /* LaunchScreen.xib */; };
-		48C72ECF19F286E20029DB65 /* barter_liTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48C72ECE19F286E20029DB65 /* barter_liTests.swift */; };
+		F230BBEE1A6BA78700273924 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F230BBED1A6BA78700273924 /* main.m */; };
+		F230BBF11A6BA78700273924 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F230BBF01A6BA78700273924 /* AppDelegate.m */; };
+		F230BBF41A6BA78700273924 /* Barter_Li.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = F230BBF21A6BA78700273924 /* Barter_Li.xcdatamodeld */; };
+		F230BBF71A6BA78700273924 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F230BBF61A6BA78700273924 /* ViewController.m */; };
+		F230BBFA1A6BA78700273924 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F230BBF81A6BA78700273924 /* Main.storyboard */; };
+		F230BBFC1A6BA78700273924 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F230BBFB1A6BA78700273924 /* Images.xcassets */; };
+		F230BBFF1A6BA78700273924 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = F230BBFD1A6BA78700273924 /* LaunchScreen.xib */; };
+		F230BC0B1A6BA78700273924 /* Barter_LiTests.m in Sources */ = {isa = PBXBuildFile; fileRef = F230BC0A1A6BA78700273924 /* Barter_LiTests.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		48C72EC919F286E20029DB65 /* PBXContainerItemProxy */ = {
+		F230BC051A6BA78700273924 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = 48C72EA819F286E20029DB65 /* Project object */;
+			containerPortal = F230BBE01A6BA78700273924 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 48C72EAF19F286E20029DB65;
-			remoteInfo = barter.li;
+			remoteGlobalIDString = F230BBE71A6BA78700273924;
+			remoteInfo = Barter.Li;
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		48C72EB019F286E20029DB65 /* barter.li.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = barter.li.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		48C72EB419F286E20029DB65 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		48C72EB519F286E20029DB65 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		48C72EB819F286E20029DB65 /* barter_li.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = barter_li.xcdatamodel; sourceTree = "<group>"; };
-		48C72EBA19F286E20029DB65 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		48C72EBD19F286E20029DB65 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		48C72EBF19F286E20029DB65 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
-		48C72EC219F286E20029DB65 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
-		48C72EC819F286E20029DB65 /* barter.liTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = barter.liTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		48C72ECD19F286E20029DB65 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		48C72ECE19F286E20029DB65 /* barter_liTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = barter_liTests.swift; sourceTree = "<group>"; };
+		F230BBE81A6BA78700273924 /* Barter.Li.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Barter.Li.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F230BBEC1A6BA78700273924 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F230BBED1A6BA78700273924 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		F230BBEF1A6BA78700273924 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		F230BBF01A6BA78700273924 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		F230BBF31A6BA78700273924 /* Barter_Li.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Barter_Li.xcdatamodel; sourceTree = "<group>"; };
+		F230BBF51A6BA78700273924 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		F230BBF61A6BA78700273924 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		F230BBF91A6BA78700273924 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		F230BBFB1A6BA78700273924 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		F230BBFE1A6BA78700273924 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		F230BC041A6BA78700273924 /* Barter.LiTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Barter.LiTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F230BC091A6BA78700273924 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F230BC0A1A6BA78700273924 /* Barter_LiTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Barter_LiTests.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		48C72EAD19F286E20029DB65 /* Frameworks */ = {
+		F230BBE51A6BA78700273924 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		48C72EC519F286E20029DB65 /* Frameworks */ = {
+		F230BC011A6BA78700273924 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -58,59 +62,62 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		48C72EA719F286E20029DB65 = {
+		F230BBDF1A6BA78700273924 = {
 			isa = PBXGroup;
 			children = (
-				48C72EB219F286E20029DB65 /* barter.li */,
-				48C72ECB19F286E20029DB65 /* barter.liTests */,
-				48C72EB119F286E20029DB65 /* Products */,
+				F230BBEA1A6BA78700273924 /* Barter.Li */,
+				F230BC071A6BA78700273924 /* Barter.LiTests */,
+				F230BBE91A6BA78700273924 /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		48C72EB119F286E20029DB65 /* Products */ = {
+		F230BBE91A6BA78700273924 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				48C72EB019F286E20029DB65 /* barter.li.app */,
-				48C72EC819F286E20029DB65 /* barter.liTests.xctest */,
+				F230BBE81A6BA78700273924 /* Barter.Li.app */,
+				F230BC041A6BA78700273924 /* Barter.LiTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		48C72EB219F286E20029DB65 /* barter.li */ = {
+		F230BBEA1A6BA78700273924 /* Barter.Li */ = {
 			isa = PBXGroup;
 			children = (
-				48C72EB519F286E20029DB65 /* AppDelegate.swift */,
-				48C72EBA19F286E20029DB65 /* ViewController.swift */,
-				48C72EBC19F286E20029DB65 /* Main.storyboard */,
-				48C72EBF19F286E20029DB65 /* Images.xcassets */,
-				48C72EC119F286E20029DB65 /* LaunchScreen.xib */,
-				48C72EB719F286E20029DB65 /* barter_li.xcdatamodeld */,
-				48C72EB319F286E20029DB65 /* Supporting Files */,
+				F230BBEF1A6BA78700273924 /* AppDelegate.h */,
+				F230BBF01A6BA78700273924 /* AppDelegate.m */,
+				F230BBF51A6BA78700273924 /* ViewController.h */,
+				F230BBF61A6BA78700273924 /* ViewController.m */,
+				F230BBF81A6BA78700273924 /* Main.storyboard */,
+				F230BBFB1A6BA78700273924 /* Images.xcassets */,
+				F230BBFD1A6BA78700273924 /* LaunchScreen.xib */,
+				F230BBF21A6BA78700273924 /* Barter_Li.xcdatamodeld */,
+				F230BBEB1A6BA78700273924 /* Supporting Files */,
 			);
-			path = barter.li;
+			path = Barter.Li;
 			sourceTree = "<group>";
 		};
-		48C72EB319F286E20029DB65 /* Supporting Files */ = {
+		F230BBEB1A6BA78700273924 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				48C72EB419F286E20029DB65 /* Info.plist */,
+				F230BBEC1A6BA78700273924 /* Info.plist */,
+				F230BBED1A6BA78700273924 /* main.m */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
-		48C72ECB19F286E20029DB65 /* barter.liTests */ = {
+		F230BC071A6BA78700273924 /* Barter.LiTests */ = {
 			isa = PBXGroup;
 			children = (
-				48C72ECE19F286E20029DB65 /* barter_liTests.swift */,
-				48C72ECC19F286E20029DB65 /* Supporting Files */,
+				F230BC0A1A6BA78700273924 /* Barter_LiTests.m */,
+				F230BC081A6BA78700273924 /* Supporting Files */,
 			);
-			path = barter.liTests;
+			path = Barter.LiTests;
 			sourceTree = "<group>";
 		};
-		48C72ECC19F286E20029DB65 /* Supporting Files */ = {
+		F230BC081A6BA78700273924 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				48C72ECD19F286E20029DB65 /* Info.plist */,
+				F230BC091A6BA78700273924 /* Info.plist */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -118,60 +125,60 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		48C72EAF19F286E20029DB65 /* barter.li */ = {
+		F230BBE71A6BA78700273924 /* Barter.Li */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 48C72ED219F286E20029DB65 /* Build configuration list for PBXNativeTarget "barter.li" */;
+			buildConfigurationList = F230BC0E1A6BA78700273924 /* Build configuration list for PBXNativeTarget "Barter.Li" */;
 			buildPhases = (
-				48C72EAC19F286E20029DB65 /* Sources */,
-				48C72EAD19F286E20029DB65 /* Frameworks */,
-				48C72EAE19F286E20029DB65 /* Resources */,
+				F230BBE41A6BA78700273924 /* Sources */,
+				F230BBE51A6BA78700273924 /* Frameworks */,
+				F230BBE61A6BA78700273924 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = barter.li;
-			productName = barter.li;
-			productReference = 48C72EB019F286E20029DB65 /* barter.li.app */;
+			name = Barter.Li;
+			productName = Barter.Li;
+			productReference = F230BBE81A6BA78700273924 /* Barter.Li.app */;
 			productType = "com.apple.product-type.application";
 		};
-		48C72EC719F286E20029DB65 /* barter.liTests */ = {
+		F230BC031A6BA78700273924 /* Barter.LiTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 48C72ED519F286E20029DB65 /* Build configuration list for PBXNativeTarget "barter.liTests" */;
+			buildConfigurationList = F230BC111A6BA78700273924 /* Build configuration list for PBXNativeTarget "Barter.LiTests" */;
 			buildPhases = (
-				48C72EC419F286E20029DB65 /* Sources */,
-				48C72EC519F286E20029DB65 /* Frameworks */,
-				48C72EC619F286E20029DB65 /* Resources */,
+				F230BC001A6BA78700273924 /* Sources */,
+				F230BC011A6BA78700273924 /* Frameworks */,
+				F230BC021A6BA78700273924 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				48C72ECA19F286E20029DB65 /* PBXTargetDependency */,
+				F230BC061A6BA78700273924 /* PBXTargetDependency */,
 			);
-			name = barter.liTests;
-			productName = barter.liTests;
-			productReference = 48C72EC819F286E20029DB65 /* barter.liTests.xctest */;
+			name = Barter.LiTests;
+			productName = Barter.LiTests;
+			productReference = F230BC041A6BA78700273924 /* Barter.LiTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		48C72EA819F286E20029DB65 /* Project object */ = {
+		F230BBE01A6BA78700273924 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastUpgradeCheck = 0600;
-				ORGANIZATIONNAME = barter.li;
+				LastUpgradeCheck = 0610;
+				ORGANIZATIONNAME = Barter.Li;
 				TargetAttributes = {
-					48C72EAF19F286E20029DB65 = {
-						CreatedOnToolsVersion = 6.0.1;
+					F230BBE71A6BA78700273924 = {
+						CreatedOnToolsVersion = 6.1.1;
 					};
-					48C72EC719F286E20029DB65 = {
-						CreatedOnToolsVersion = 6.0.1;
-						TestTargetID = 48C72EAF19F286E20029DB65;
+					F230BC031A6BA78700273924 = {
+						CreatedOnToolsVersion = 6.1.1;
+						TestTargetID = F230BBE71A6BA78700273924;
 					};
 				};
 			};
-			buildConfigurationList = 48C72EAB19F286E20029DB65 /* Build configuration list for PBXProject "barter.li" */;
+			buildConfigurationList = F230BBE31A6BA78700273924 /* Build configuration list for PBXProject "Barter.Li" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -179,29 +186,29 @@
 				en,
 				Base,
 			);
-			mainGroup = 48C72EA719F286E20029DB65;
-			productRefGroup = 48C72EB119F286E20029DB65 /* Products */;
+			mainGroup = F230BBDF1A6BA78700273924;
+			productRefGroup = F230BBE91A6BA78700273924 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				48C72EAF19F286E20029DB65 /* barter.li */,
-				48C72EC719F286E20029DB65 /* barter.liTests */,
+				F230BBE71A6BA78700273924 /* Barter.Li */,
+				F230BC031A6BA78700273924 /* Barter.LiTests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		48C72EAE19F286E20029DB65 /* Resources */ = {
+		F230BBE61A6BA78700273924 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				48C72EBE19F286E20029DB65 /* Main.storyboard in Resources */,
-				48C72EC319F286E20029DB65 /* LaunchScreen.xib in Resources */,
-				48C72EC019F286E20029DB65 /* Images.xcassets in Resources */,
+				F230BBFA1A6BA78700273924 /* Main.storyboard in Resources */,
+				F230BBFF1A6BA78700273924 /* LaunchScreen.xib in Resources */,
+				F230BBFC1A6BA78700273924 /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		48C72EC619F286E20029DB65 /* Resources */ = {
+		F230BC021A6BA78700273924 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -211,47 +218,48 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		48C72EAC19F286E20029DB65 /* Sources */ = {
+		F230BBE41A6BA78700273924 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				48C72EBB19F286E20029DB65 /* ViewController.swift in Sources */,
-				48C72EB919F286E20029DB65 /* barter_li.xcdatamodeld in Sources */,
-				48C72EB619F286E20029DB65 /* AppDelegate.swift in Sources */,
+				F230BBF41A6BA78700273924 /* Barter_Li.xcdatamodeld in Sources */,
+				F230BBF11A6BA78700273924 /* AppDelegate.m in Sources */,
+				F230BBF71A6BA78700273924 /* ViewController.m in Sources */,
+				F230BBEE1A6BA78700273924 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		48C72EC419F286E20029DB65 /* Sources */ = {
+		F230BC001A6BA78700273924 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				48C72ECF19F286E20029DB65 /* barter_liTests.swift in Sources */,
+				F230BC0B1A6BA78700273924 /* Barter_LiTests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		48C72ECA19F286E20029DB65 /* PBXTargetDependency */ = {
+		F230BC061A6BA78700273924 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 48C72EAF19F286E20029DB65 /* barter.li */;
-			targetProxy = 48C72EC919F286E20029DB65 /* PBXContainerItemProxy */;
+			target = F230BBE71A6BA78700273924 /* Barter.Li */;
+			targetProxy = F230BC051A6BA78700273924 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		48C72EBC19F286E20029DB65 /* Main.storyboard */ = {
+		F230BBF81A6BA78700273924 /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				48C72EBD19F286E20029DB65 /* Base */,
+				F230BBF91A6BA78700273924 /* Base */,
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";
 		};
-		48C72EC119F286E20029DB65 /* LaunchScreen.xib */ = {
+		F230BBFD1A6BA78700273924 /* LaunchScreen.xib */ = {
 			isa = PBXVariantGroup;
 			children = (
-				48C72EC219F286E20029DB65 /* Base */,
+				F230BBFE1A6BA78700273924 /* Base */,
 			);
 			name = LaunchScreen.xib;
 			sourceTree = "<group>";
@@ -259,7 +267,7 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
-		48C72ED019F286E20029DB65 /* Debug */ = {
+		F230BC0C1A6BA78700273924 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -293,16 +301,15 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
-				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
 		};
-		48C72ED119F286E20029DB65 /* Release */ = {
+		F230BC0D1A6BA78700273924 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -330,7 +337,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -338,29 +345,27 @@
 			};
 			name = Release;
 		};
-		48C72ED319F286E20029DB65 /* Debug */ = {
+		F230BC0F1A6BA78700273924 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				INFOPLIST_FILE = barter.li/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				INFOPLIST_FILE = Barter.Li/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Debug;
 		};
-		48C72ED419F286E20029DB65 /* Release */ = {
+		F230BC101A6BA78700273924 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				INFOPLIST_FILE = barter.li/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				INFOPLIST_FILE = Barter.Li/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Release;
 		};
-		48C72ED619F286E20029DB65 /* Debug */ = {
+		F230BC121A6BA78700273924 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -372,14 +377,14 @@
 					"DEBUG=1",
 					"$(inherited)",
 				);
-				INFOPLIST_FILE = barter.liTests/Info.plist;
+				INFOPLIST_FILE = Barter.LiTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/barter.li.app/barter.li";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Barter.Li.app/Barter.Li";
 			};
 			name = Debug;
 		};
-		48C72ED719F286E20029DB65 /* Release */ = {
+		F230BC131A6BA78700273924 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -387,57 +392,55 @@
 					"$(SDKROOT)/Developer/Library/Frameworks",
 					"$(inherited)",
 				);
-				INFOPLIST_FILE = barter.liTests/Info.plist;
+				INFOPLIST_FILE = Barter.LiTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/barter.li.app/barter.li";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Barter.Li.app/Barter.Li";
 			};
 			name = Release;
 		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		48C72EAB19F286E20029DB65 /* Build configuration list for PBXProject "barter.li" */ = {
+		F230BBE31A6BA78700273924 /* Build configuration list for PBXProject "Barter.Li" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				48C72ED019F286E20029DB65 /* Debug */,
-				48C72ED119F286E20029DB65 /* Release */,
+				F230BC0C1A6BA78700273924 /* Debug */,
+				F230BC0D1A6BA78700273924 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		48C72ED219F286E20029DB65 /* Build configuration list for PBXNativeTarget "barter.li" */ = {
+		F230BC0E1A6BA78700273924 /* Build configuration list for PBXNativeTarget "Barter.Li" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				48C72ED319F286E20029DB65 /* Debug */,
-				48C72ED419F286E20029DB65 /* Release */,
+				F230BC0F1A6BA78700273924 /* Debug */,
+				F230BC101A6BA78700273924 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
 		};
-		48C72ED519F286E20029DB65 /* Build configuration list for PBXNativeTarget "barter.liTests" */ = {
+		F230BC111A6BA78700273924 /* Build configuration list for PBXNativeTarget "Barter.LiTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				48C72ED619F286E20029DB65 /* Debug */,
-				48C72ED719F286E20029DB65 /* Release */,
+				F230BC121A6BA78700273924 /* Debug */,
+				F230BC131A6BA78700273924 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
 /* Begin XCVersionGroup section */
-		48C72EB719F286E20029DB65 /* barter_li.xcdatamodeld */ = {
+		F230BBF21A6BA78700273924 /* Barter_Li.xcdatamodeld */ = {
 			isa = XCVersionGroup;
 			children = (
-				48C72EB819F286E20029DB65 /* barter_li.xcdatamodel */,
+				F230BBF31A6BA78700273924 /* Barter_Li.xcdatamodel */,
 			);
-			currentVersion = 48C72EB819F286E20029DB65 /* barter_li.xcdatamodel */;
-			path = barter_li.xcdatamodeld;
+			currentVersion = F230BBF31A6BA78700273924 /* Barter_Li.xcdatamodel */;
+			path = Barter_Li.xcdatamodeld;
 			sourceTree = "<group>";
 			versionGroupType = wrapper.xcdatamodel;
 		};
 /* End XCVersionGroup section */
 	};
-	rootObject = 48C72EA819F286E20029DB65 /* Project object */;
+	rootObject = F230BBE01A6BA78700273924 /* Project object */;
 }
