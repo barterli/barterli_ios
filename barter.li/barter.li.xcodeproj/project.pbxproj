@@ -10,7 +10,11 @@
 		3836F8021A6BC9D800599C72 /* BLBook.m in Sources */ = {isa = PBXBuildFile; fileRef = 3836F8011A6BC9D800599C72 /* BLBook.m */; };
 		3836F8031A6BC9D800599C72 /* BLBook.m in Sources */ = {isa = PBXBuildFile; fileRef = 3836F8011A6BC9D800599C72 /* BLBook.m */; };
 		3842E50E1A6BCDF900FE8A9B /* BLUser.m in Sources */ = {isa = PBXBuildFile; fileRef = 3842E50D1A6BCDF900FE8A9B /* BLUser.m */; };
+
+		F202CA031A6C050B006C1B33 /* BLBookCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = F202CA021A6C050B006C1B33 /* BLBookCollectionViewCell.m */; };
+
 		3842E5101A6BFBFA00FE8A9B /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3842E50F1A6BFBFA00FE8A9B /* CoreLocation.framework */; };
+
 		F230BBEE1A6BA78700273924 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F230BBED1A6BA78700273924 /* main.m */; };
 		F230BBF11A6BA78700273924 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F230BBF01A6BA78700273924 /* AppDelegate.m */; };
 		F230BBF41A6BA78700273924 /* Barter_Li.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = F230BBF21A6BA78700273924 /* Barter_Li.xcdatamodeld */; };
@@ -36,7 +40,12 @@
 		3836F8011A6BC9D800599C72 /* BLBook.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = BLBook.m; path = "barter.li/Modal Classes/BLBook/BLBook.m"; sourceTree = SOURCE_ROOT; };
 		3842E50C1A6BCDF900FE8A9B /* BLUser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = BLUser.h; path = "barter.li/Modal Classes/BLUser/BLUser.h"; sourceTree = SOURCE_ROOT; };
 		3842E50D1A6BCDF900FE8A9B /* BLUser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = BLUser.m; path = "barter.li/Modal Classes/BLUser/BLUser.m"; sourceTree = SOURCE_ROOT; };
+
+		F202CA011A6C050B006C1B33 /* BLBookCollectionViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = BLBookCollectionViewCell.h; path = "barter.li/View Classes/BLBookCollectionViewCell/BLBookCollectionViewCell.h"; sourceTree = SOURCE_ROOT; };
+		F202CA021A6C050B006C1B33 /* BLBookCollectionViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = BLBookCollectionViewCell.m; path = "barter.li/View Classes/BLBookCollectionViewCell/BLBookCollectionViewCell.m"; sourceTree = SOURCE_ROOT; };
+
 		3842E50F1A6BFBFA00FE8A9B /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+
 		F230BBE81A6BA78700273924 /* Barter.Li.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Barter.Li.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F230BBEC1A6BA78700273924 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		F230BBED1A6BA78700273924 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -99,6 +108,23 @@
 			path = BLUser;
 			sourceTree = "<group>";
 		};
+		F202CA041A6C0513006C1B33 /* BLBookCollectionViewCell */ = {
+			isa = PBXGroup;
+			children = (
+				F202CA011A6C050B006C1B33 /* BLBookCollectionViewCell.h */,
+				F202CA021A6C050B006C1B33 /* BLBookCollectionViewCell.m */,
+			);
+			name = BLBookCollectionViewCell;
+			sourceTree = "<group>";
+		};
+		F202CA051A6C052B006C1B33 /* View Classes */ = {
+			isa = PBXGroup;
+			children = (
+				F202CA041A6C0513006C1B33 /* BLBookCollectionViewCell */,
+			);
+			name = "View Classes";
+			sourceTree = "<group>";
+		};
 		F230BBDF1A6BA78700273924 = {
 			isa = PBXGroup;
 			children = (
@@ -123,9 +149,9 @@
 			children = (
 				F230BBEF1A6BA78700273924 /* AppDelegate.h */,
 				F230BBF01A6BA78700273924 /* AppDelegate.m */,
+				F202CA051A6C052B006C1B33 /* View Classes */,
 				3836F7FE1A6BC99D00599C72 /* Modal Classes */,
-				F230BBF51A6BA78700273924 /* ViewController.h */,
-				F230BBF61A6BA78700273924 /* ViewController.m */,
+				F281C5781A6C071900FE5993 /* View Controllers */,
 				F230BBF81A6BA78700273924 /* Main.storyboard */,
 				F230BBFB1A6BA78700273924 /* Images.xcassets */,
 				F230BBFD1A6BA78700273924 /* LaunchScreen.xib */,
@@ -159,6 +185,15 @@
 				F230BC091A6BA78700273924 /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		F281C5781A6C071900FE5993 /* View Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				F230BBF51A6BA78700273924 /* ViewController.h */,
+				F230BBF61A6BA78700273924 /* ViewController.m */,
+			);
+			name = "View Controllers";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -266,6 +301,7 @@
 				F230BBF71A6BA78700273924 /* ViewController.m in Sources */,
 				3836F8021A6BC9D800599C72 /* BLBook.m in Sources */,
 				3842E50E1A6BCDF900FE8A9B /* BLUser.m in Sources */,
+				F202CA031A6C050B006C1B33 /* BLBookCollectionViewCell.m in Sources */,
 				F230BBEE1A6BA78700273924 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
